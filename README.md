@@ -1,2 +1,2 @@
-# Huawei_SimpleBankApplication
+# Huawei Simple Bank Application
 Huawei Interview Assignment
