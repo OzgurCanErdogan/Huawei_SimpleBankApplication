@@ -1,10 +1,24 @@
 package model;
 
+import java.util.Hashtable;
+import java.util.ArrayList;
+
 public class User {
 	String tcID;
 	String name;
 	String surname;
-	double amount;
+	//double amount;
+	private String password;
+	Hashtable<String,Double> currencyAmount;
+	//Transaction history[];
+	ArrayList<Transaction> history = new ArrayList<Transaction>();
+	
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	public String getTcID() {
 		return tcID;
 	}
@@ -23,10 +37,5 @@ public class User {
 	public void setSurname(String surname) {
 		this.surname = surname;
 	}
-	public double getAmount() {
-		return amount;
-	}
-	public void setAmount(double amount) {
-		this.amount = amount;
-	}
+	
 }

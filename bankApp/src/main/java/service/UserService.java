@@ -6,6 +6,7 @@ import java.util.stream.Stream;
 import org.springframework.stereotype.Service;
 import model.User;
 
+
 @Service
 public class UserService {
 
@@ -15,14 +16,12 @@ public class UserService {
 		User u = new User();
 		u.setName("Ozgur Can");
 		u.setSurname("Erdogan");
-		u.setAmount(130000.0);
 		u.setTcID("20759830666");
 		users.put(u.getTcID(), u);
 		
 		u = new User();
 		u.setName("Caner");
 		u.setSurname("Dogan");
-		u.setAmount(130000.0);
 		u.setTcID("20759830668");
 		users.put(u.getTcID(), u);
 	}
