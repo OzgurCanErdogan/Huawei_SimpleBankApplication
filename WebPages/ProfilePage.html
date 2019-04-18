@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #B22222;
+  display: block;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<div class="sidenav">
+  <h3>Simple Bank App</h3>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+  <h2 align="center">Profile</h2>
+  <div class="info"> 
+    <p>Name: </p>
+    <p>TC Number: </p>
+  </div>
+</div>
+	<p align="center">React Dynamic Table Rows</p>
+    <div id="container" align="center"></div>
+	
+    <div id="mocha" align="center" ></div>
+	
+	<div id="like_button_container" align="center"></div>
+	
+	
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Load our React component. -->
+    <script src="webScript.js"></script>
+</body>
+</html> 
